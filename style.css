@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar starts */
+.navbar {
+    background-color: rgb(236, 227, 245);
+}
+
+.login {
+    background-color: rgb(169, 142, 196);
+}
+
+.signUp {
+    background-color: rgb(169, 142, 196);
+}
+
+@media all and (max-width:992px) {
+    .input-box {
+        width: 100%;
+    }
+}
+
+
+
+/* carousal starts */
+.carousal{
+    height: 100vh;
+}
+
+
+/* collection */
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: rgb(121, 86, 154);
+}
+
+.text {
+    color: rgb(121, 86, 154);
+
+}
+
+.collection-img img {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.collection-img:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.collection-img {
+    height: 300px;
+}
+
+@media screen and (max-width:756px) {
+    .collection-img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:756px) {
+    .detail {
+        margin-top: 10px;
+    }
+}
+
+
+/* special collection */
+.special-img span {
+    top: 20px;
+    right: 20px;
+}
+
+.add-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 86, 154);
+}
+
+.special-img img {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* horizontal video */
+.explore {
+    background-color: rgb(121, 86, 154);
+    color: rgb(255, 255, 255);
+}
+
+/* newsletter */
+#newsletter .input-group {
+    max-width: 500px;
+}
+
+#newsletter .form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#newsletter .btn {
+    background-color: rgb(121, 86, 154);
+    color: #fff;
+    border-color: rgb(121, 86, 154);
+}
+
+#newsletter .btn:hover {
+    background-color: rgb(65, 11, 119);
+    border-color: rgb(65, 11, 119) ;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: rgb(236, 227, 245);
+}
+
+/* men page */
+.men-image {
+    margin-top: 100px;
+
+}
+
+.mens-image {
+    height: 86vh;
+}
+
+/* women page */
+.women-image {
+    margin-top: 100px;
+
+}
+
+.womens-image {
+    height: 86vh;
+}
+
+/* kids page */
+.kid-image {
+    margin-top: 100px;
+
+}
+
+.kids-image {
+    height: 86vh;
+}
+
+/* login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 500px;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: rgb(121, 86, 154);
+    color: white;
+    border: #000;
+}
+
+.loginanchor {
+    color: rgb(121, 86, 154);
+}
+
+@media screen and (max-width:756px){
+      .login-form{
+        margin-top:100px;
+      }
+}
+.input-style .error{
+    color:rgb(255, 0, 0);
+    font-size:16px;
+}
+
+.input-style.success input{
+    border-color:rgb(79, 202, 196)
+}
+.input-style.error input{
+    border-color:rgb(255, 64, 0)
+}
+
+/* signup page */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    padding: 40px;
+    width: 500px;
+}
+
+
+
+.btn-signup {
+    width: 100%;
+    background-color: rgb(121, 86, 154);
+    color: white;
+    border: #000;
+}
+
+@media screen and (max-width:992px){
+  .signup-form{
+    margin-top:200px;
+  }
+}
+/* product details */
+.product-img{
+  width: 100%;
+}
+
+.select{
+  width:100%;
+  border:2px solid rgb(10, 10, 10);
+}
+.select:active{
+  outline:none;
+}
+.product-button{
+  background-color:  rgb(121, 86, 154);
+  color:#fff;
+}
+.product-button-buy{
+  
+  background-color:  rgb(121, 86, 154);
+  color:#fff;
+}
+.product-button-add{
+  background-color:  rgb(121, 86, 154);
+  color:#fff;
+  
+}
+.product-card{
+    margin:150px auto;
+}
+@media screen and (max-width:1400px){
+    .product-button-add{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .product-card{
+        margin-top: 250px;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .product-img{
+        height:100vh;
+
+    }
+}
+
+/* profile page */
+
+.profile-button{
+    background-color:rgb(121, 86, 154);
+    color:#ffffff;
+}
+
+
+
+
+
+  
